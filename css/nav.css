@@ -28,9 +28,8 @@ nav{
   margin-top: 25px;
   color: #444;
   font-weight: 400;
-  letter-spacing: 2px;
   font-size:1.2rem;
-  font-family:'Noto Serif TC',sans-serif;
+  font-family:'Vollkorn',sans-serif;
 }
 
 .name:hover{color: #7078cc;}

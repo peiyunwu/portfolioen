@@ -4,23 +4,9 @@
 @import url("portfolio.css");
 @import url("fancybox.css");
 
-/*Noto Serif TC*/
+/*Font*/
 
-@font-face{
-	font-family:'Noto Serif TC';
-	src:url('../fonts/NotoSerif/NotoSerifCJKtc-SemiBold.woff') format("woff"),
-	url('https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@600&display=swap');
-	font-weight:600;
-	font-style:normal;
-}
-
-@font-face{
-	font-family:'Noto Serif TC';
-	src:url('../fonts/NotoSerif/NotoSerifCJKtc-Regular.woff') format("woff"),
-	url('https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@400&display=swap');
-	font-weight:400;
-	font-style:normal;
-}
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn:wght@400;600&display=swap');
 
 /*html & body*/
 
@@ -39,7 +25,7 @@ html{
 }
 
 html, body{
-	font-family:'Noto Serif TC',san-serif,Microsoft JhengHei;
+	font-family:'Vollkorn',san-serif,Microsoft JhengHei;
 	
 	/*--color-text: #444;
 	--color-link: #7078cc;
@@ -74,9 +60,8 @@ body.fade-out {
 /*content*/
 
 h1,h2,h3,h4,h5,h6{
-	font-family:'Noto Serif TC',Helvetica,Arial,sans-serif,Microsoft JhengHei;
+	font-family:'Vollkorn',Helvetica,Arial,sans-serif,Microsoft JhengHei;
 	line-height:normal;
-	letter-spacing: 0.2px;
 }
 
 img{
@@ -196,10 +181,10 @@ a{
 .title{
 	padding-top:16px;
 	text-align: center;
-	font-weight: 600;
 	font-size: 1.6rem;
 	margin: auto;
 	margin-bottom: 0.7rem;
+	letter-spacing: 1px;
 }
 
 .date{
